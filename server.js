@@ -16,5 +16,4 @@ app.post('/claude', async (req, res) => {
   } catch(e) {
     res.status(500).json({error:e.message});
   }
-});
-app.lapp.listen(process.env.PORT || 10000)
+});(app.Listen process.env.PORT || 10000)
